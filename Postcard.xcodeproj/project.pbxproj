@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1BFA6D1A0B5D3400C6B4E7 /* 14273_486767238020962_804593072_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD1BFA6C1A0B5D3400C6B4E7 /* 14273_486767238020962_804593072_n.jpg */; };
+		CD1BFA6F1A0B5E7800C6B4E7 /* Stamp_Salvador_Allende.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD1BFA6E1A0B5E7800C6B4E7 /* Stamp_Salvador_Allende.jpg */; };
 		CD8357FC1A07ED01001111D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8357FB1A07ED01001111D0 /* AppDelegate.swift */; };
 		CD8357FE1A07ED01001111D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8357FD1A07ED01001111D0 /* ViewController.swift */; };
 		CD8358011A07ED01001111D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8357FF1A07ED01001111D0 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD1BFA6C1A0B5D3400C6B4E7 /* 14273_486767238020962_804593072_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14273_486767238020962_804593072_n.jpg; sourceTree = "<group>"; };
+		CD1BFA6E1A0B5E7800C6B4E7 /* Stamp_Salvador_Allende.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stamp_Salvador_Allende.jpg; sourceTree = "<group>"; };
 		CD8357F61A07ED01001111D0 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8357FA1A07ED01001111D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD8357FB1A07ED01001111D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		CD8357F91A07ED01001111D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD1BFA6E1A0B5E7800C6B4E7 /* Stamp_Salvador_Allende.jpg */,
+				CD1BFA6C1A0B5D3400C6B4E7 /* 14273_486767238020962_804593072_n.jpg */,
 				CD8357FA1A07ED01001111D0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1BFA6D1A0B5D3400C6B4E7 /* 14273_486767238020962_804593072_n.jpg in Resources */,
 				CD8358011A07ED01001111D0 /* Main.storyboard in Resources */,
+				CD1BFA6F1A0B5E7800C6B4E7 /* Stamp_Salvador_Allende.jpg in Resources */,
 				CD8358061A07ED01001111D0 /* LaunchScreen.xib in Resources */,
 				CD8358031A07ED01001111D0 /* Images.xcassets in Resources */,
 			);
@@ -405,6 +413,7 @@
 				CD8358171A07ED01001111D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD8358181A07ED01001111D0 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				CD83581A1A07ED01001111D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

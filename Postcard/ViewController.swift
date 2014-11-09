@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var etichettaMessaggio: UILabel!
+    @IBOutlet weak var campoInserisciNome: UITextField!
+    @IBOutlet weak var campoInserisciMessaggio: UITextField!
+    @IBOutlet weak var mailButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +25,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func pressioneBottoneInviaCartolina(sender: UIButton) {
+        etichettaMessaggio.hidden = false
+        etichettaMessaggio.text = campoInserisciMessaggio.text
+        etichettaMessaggio.textColor = UIColor.redColor()
+        campoInserisciMessaggio.text = ""
+        campoInserisciMessaggio.resignFirstResponder()
+        
+        mailButton.setTitle("Cartolina Inviata", forState: UIControlState.Normal)
+    }
 
+    
 }
 
